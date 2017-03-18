@@ -1,0 +1,3 @@
+# Replace latex command with the material inside the command
+# e.g. replace \proglang{Hadoop} with Hadoop
+:%s/\\proglang{\(.*\)}/\1/gc
